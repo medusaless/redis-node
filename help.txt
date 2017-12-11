@@ -1,0 +1,4 @@
+1.redis设置密码:修改window.redis.conf文件
+2.redis登陆:cd redis根目录;输入redis-server redis.windows.conf
+3.将redis设置为windows服务：redis-server --service-install redis.windows.conf --service-name Redis3.2.1
+4.redis登陆：redis-cli -h 127.0.0.1 -p 6379 -a admin //-h(host) -p(port) -a(auth，密码)
